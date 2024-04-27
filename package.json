@@ -1,0 +1,17 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "blog for dichavando codigo",
+  "main": "app.js",
+  "author": "Jorge Luis",
+  "license": "All Rights Reserved",
+  "private": true,
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {}
+}
