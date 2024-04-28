@@ -8,3 +8,44 @@
     font-weight: bold;
 }
 
+.logo-circular {
+    border-radius: 50%;
+}
+/* Homeee */
+
+.text-init {
+    color: #fff;
+    font-weight: bold;
+}
+
+.block-card {
+    margin-top: 15px;
+}
+
+.text-p-grey {
+    color: gray;
+}
+
+.square-image {
+    width: 200px; /* Tamanho da imagem quadrada */
+    height: 200px; /* Tamanho da imagem quadrada */
+    object-fit: cover; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+}
+
+.list-inline-item a {
+color: #ffffff; /* Cor branca */
+transition: transform 0.2s ease-in-out; /* Adiciona uma transição suave de 0.2 segundos */
+}
+
+.list-inline-item a:hover {
+transform: translateY(-5px); /* Move o ícone para cima em 5 pixels quando o cursor passa sobre ele */
+}
+
+/* Home */
+
+
+.container-principal {
+    background-color: black;
+
+}
