@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const { title } = require('process');
 
 
 // Configuração para servir arquivos estáticos do diretório "assets"
@@ -20,12 +21,15 @@ app.set('view engine', 'ejs');
 
 // Rota para a página inicial
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('Home.ejs');
 });
 
+// Rota para a página inicial
+
+
 // Inicialização do servidor
-app.listen(4001, () => {
-    console.log('Servidor rodando em http://localhost:4001');
+app.listen(4002, () => {
+    console.log('Servidor rodando em http://localhost:4002');
 });
 
 
